@@ -7,7 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1dKaHc7diA_K3CabaGtsoB9YCZ0BFBlPV
 """
 
-!sudo apt install python3.10-venv
+import subprocess
+
+# Run the shell command to install python3.10-venv
+subprocess.run(["sudo", "apt", "install", "python3.10-venv"])
+
 
 !python3 -m venv pdf
 
